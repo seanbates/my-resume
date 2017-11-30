@@ -1,0 +1,57 @@
+{% extends "home-base.html" %}
+
+{% block title %}
+Homepage/Resume
+{% endblock %}
+
+{% block head%}
+  {{super()}}
+  <style>
+    body {
+      padding-top: 54px;
+    }
+    #intro {
+      padding-top: 15px;
+    }
+  </style>
+{% endblock %}
+
+{% block page_content %}
+<div class="container">
+   <h1 class="mt-5"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Sean's Resume</h1>
+   <h2>Education</h2>
+   <p>Univeristy of Delaware</p>
+   <p>Bachelor of Science, Accounting and Management Information Systems</p>
+   <p>GPA: 3.8</p>
+   <h2>Work Experience</h2>
+   <p>PriceWaterhouse Coopers, LLC</p>
+   <p>Tax Intern
+     <ul>
+       <li>Assistance with year-end filings of several publicly traded companies</li>
+       <li>Experience of shadowing opportunities with multiple partners and managers</li>
+       <li>Full independence to test performance materiality for several client tax areas including ASC740, Deferred Tax Assets, Subpart F Income, and several others</li>
+     </ul></p>
+
+    <p>Vention Medical, Inc.</p>
+    <p>Accounting/IS Intern
+      <ul>
+        <li>Management of help desk ticketing system and resolve of issues/requests</li>
+        <li>Administration of company servers and company-wide systems and software</li>
+        <li>Analysis and reconciliation of finished goods inventory at year-end</li>
+        <li>Processing of invoices and checks for cash accounts</li>
+      </ul></p>
+
+  <h2>Skills</h2>
+  <p>
+    <ul>
+      <li>Professional Working Proficiency in Mandarin Chinese</li>
+      <li>Advanced Proficiency in Microsoft Office Suite: Word, Excel, PowerPoint, Access, Outlook</li>
+      <li>Basic Proficiency in Github, Java, JavaScript, HTML, CSS, SQL, and Python</li>
+    </ul>
+  </p>
+
+<h2>Contact:</h2>
+<h2 class="mt-6"><a href="https://www.linkedin.com/in/sean-bates-77aa4b104/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></h2>
+
+ </div>
+{% endblock %}
